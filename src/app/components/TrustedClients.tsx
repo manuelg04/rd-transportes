@@ -32,9 +32,9 @@ const itemVariants = {
 
 export function TrustedClients() {
   return (
-    <Background variant="tertiary" className="py-16">
+    <Background className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-2 text-blue-800">Clientes que Confían en Nosotros</h2>
+        <h2 className="text-4xl font-bold text-center mb-2 text-gray-700">Clientes que Confían en Nosotros</h2>
         <p className="text-center text-gray-600 mb-12">Descubre por qué las mejores empresas eligen RD Transportes</p>
         
         <motion.div 
@@ -45,20 +45,20 @@ export function TrustedClients() {
         >
           {clients.map((client, index) => (
             <motion.div key={index} variants={itemVariants}>
-              <Card className="hover:shadow-xl transition-shadow duration-300 bg-white bg-opacity-90">
+              <Card className="hover:shadow-xl transition-shadow duration-300 bg-gray-50">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between mb-4">
                     <img src={client.logo} alt={client.name} className="h-12 w-auto" />
-                    <Badge variant="secondary" className="bg-yellow-300 text-blue-800">
+                    <Badge variant="secondary" className="bg-orange-500 text-white">
                       Cliente Verificado
                     </Badge>
                   </div>
-                  <p className="text-gray-700 mb-4">{client.feedback}</p>
+                  <p className="text-gray-600 mb-4">{client.feedback}</p>
                   <div className="flex items-center justify-between">
-                    <span className="font-semibold text-blue-700">{client.name}</span>
+                    <span className="font-semibold text-gray-700">{client.name}</span>
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="h-5 w-5 text-yellow-400 mr-1" fill="currentColor" />
+                        <Star key={i} className="h-5 w-5 text-orange-500 mr-1" fill="currentColor" />
                       ))}
                     </div>
                   </div>
@@ -69,19 +69,19 @@ export function TrustedClients() {
         </motion.div>
 
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-semibold mb-6 text-blue-800">¿Por qué nos eligen?</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-gray-700">¿Por qué nos eligen?</h3>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex items-center">
-              <ThumbsUp className="h-8 w-8 text-blue-500 mr-2" />
-              <span className="text-gray-700">98% de satisfacción</span>
+              <ThumbsUp className="h-8 w-8 text-orange-500 mr-2" />
+              <span className="text-gray-600">98% de satisfacción</span>
             </div>
             <div className="flex items-center">
-              <Star className="h-8 w-8 text-yellow-400 mr-2" fill='currentColor' />
-              <span className="text-gray-700">Calificación promedio 4.9/5</span>
+              <Star className="h-8 w-8 text-orange-500 mr-2" fill='currentColor' />
+              <span className="text-gray-600">Calificación promedio 4.9/5</span>
             </div>
             <div className="flex items-center">
-              <Award className="h-8 w-8 text-green-500 mr-2" />
-              <span className="text-gray-700">Líder en el sector</span>
+              <Award className="h-8 w-8 text-orange-500 mr-2" />
+              <span className="text-gray-600">Líder en el sector</span>
             </div>
           </div>
         </div>
