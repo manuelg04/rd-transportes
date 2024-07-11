@@ -8,7 +8,7 @@ export default function MissionVisionPage() {
         <div className="relative mb-16">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 opacity-75 rounded-lg"></div>
           <img 
-            src="/RDTRANSPORTES-MISSION.jpg" 
+            src="/RDTRANSPORTES-MISSION.JPG" 
             alt="Misión y Visión" 
             className="relative z-10 w-full h-[600px] object-cover rounded-lg shadow-2xl"
           />

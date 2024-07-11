@@ -15,60 +15,60 @@ const teamMembers: TeamMember[] = [
   { 
     name: "John Doe", 
     role: "CEO", 
-    image: "/lady.jpg",
+    image: "/lady.JPG",
     description: "Visionary leader with 15 years of industry experience."
   },
   { 
     name: "Jane Smith", 
     role: "Operations Manager", 
-    image: "yilmis.jpg",
+    image: "yilmis.JPG",
     description: "Efficiency expert, streamlining processes for optimal performance."
   },
   { 
     name: "Mike Johnson", 
     role: "Lead Driver", 
-    image: "security.jpg",
+    image: "security.JPG",
     description: "Seasoned driver with an impeccable safety record."
   },
   {
     name: "John Doe",
     role: "CEO",
-    image: "/white.jpg",
+    image: "/white.JPG",
     description: "Visionary leader with 15 years of industry experience."
   },
   {
     name: "Jane Smith",
     role: "Operations Manager",
-    image: "recepcion.jpg",
+    image: "recepcion.JPG",
     description: "Efficiency expert, streamlining processes for optimal performance."
   },
   {
     name: "Mike Johnson",
     role: "Lead Driver",
-    image: "operations.jpg",
+    image: "operations.JPG",
     description: "Seasoned driver with an impeccable safety record."
   },
   {
     name: "John Doe",
     role: "CEO",
-    image: "/operations2.jpg",
+    image: "/operations2.JPG",
     description: "Visionary leader with 15 years of industry experience."
   },
   {
     name: "John Doe",
     role: "CEO",
-    image: "/gerente2.jpg",
+    image: "/gerente2.JPG",
     description: "Visionary leader with 15 years of industry experience."
   },
   {
     name: "John Doe",
     role: "CEO",
-    image: "/contable.jpg",
+    image: "/contable.JPG",
     description: "Visionary leader with 15 years of industry experience."
   },
 ];
 
-const groupPhoto = "/RDTRANSPORTES-TEAM.jpg";
+const groupPhoto = "/RDTRANSPORTES-TEAM.JPG";
 
 const roleIcons = {
   CEO: Briefcase,
