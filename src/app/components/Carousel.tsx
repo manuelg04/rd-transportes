@@ -11,10 +11,10 @@ import {
 import { Background } from './Background';
 
 const images = [
-  "/RDTRANSPORTES-1.jpg",
-  "/RDTRANSPORTES-2.jpg",
-  "/RDTRANSPORTES-3.jpg",
-  "/RDTRANSPORTES-4.jpg",
+  "/RDTRANSPORTES-1.JPG",
+  "/RDTRANSPORTES-2.JPG",
+  "/RDTRANSPORTES-3.JPG",
+  "/RDTRANSPORTES-4.JPG",
 ];
 
 export function EnhancedCarousel() {
