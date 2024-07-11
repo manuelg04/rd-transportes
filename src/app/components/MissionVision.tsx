@@ -6,6 +6,7 @@ export function MissionVision() {
   return (
     <section id="mission-vision" className="py-16 bg-gradient-to-br from-gray-100 to-gray-200">
       <div className="container mx-auto px-4">
+        
         <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">Nuestra Esencia</h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           Descubre los principios que guían nuestro camino y la visión que impulsa nuestro crecimiento.

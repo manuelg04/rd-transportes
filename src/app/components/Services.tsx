@@ -42,9 +42,7 @@ export function Services() {
           className="object-center"
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white text-center px-4">
-            Cargue Con Nosotros
-          </h1>
+  
         </div>
       </div>
       

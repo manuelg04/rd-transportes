@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <div className="relative w-full h-[70vh] flex items-center">
+    <div className="relative w-full h-screen flex items-center">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
@@ -15,7 +15,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
 
       {/* Content */}
-      <div className="relative z-20 text-white px-4 md:px-8 lg:px-16 w-full">
+      <div className="relative z-20 text-white px-4 md:px-8 lg:px-16 w-full mt-24">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             RD TRANSPORTES

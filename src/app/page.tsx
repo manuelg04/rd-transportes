@@ -3,6 +3,7 @@ import { EnhancedCarousel } from './components/Carousel'
 import { Values } from './components/Values'
 import { TrustedClients } from './components/TrustedClients'
 import { OperationsBanner } from './components/BannerOperations';
+import { OurTeam } from './components/OurTeam';
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
       <Hero />
       <EnhancedCarousel />
       <Values />
+      <OurTeam />
       <TrustedClients />
-      <OperationsBanner />
     </main>
   )
 }
