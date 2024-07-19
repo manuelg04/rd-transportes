@@ -6,8 +6,14 @@ import { EnhancedCarousel } from "./components/Carousel";
 import { ValuesBanner } from "./components/Banner";
 import { TrustedClients } from "./components/TrustedClients";
 import { useInView } from 'react-intersection-observer';
+import { ReactNode } from 'react';
 
-const AnimatedSection = ({ children, className }) => {
+interface AnimatedSectionProps {
+  children: ReactNode;
+  className?: string;
+}
+
+const AnimatedSection = ({ children, className }: AnimatedSectionProps) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
