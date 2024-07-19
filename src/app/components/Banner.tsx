@@ -13,7 +13,7 @@ const values = [
   { title: "Responsabilidad", description: "Asumimos la responsabilidad de nuestras acciones y decisiones.", icon: Award },
 ];
 
-const ValueCard = ({ title, description, icon: Icon, index }) => {
+const ValueCard = ({ title, description, icon: Icon, index }: { title: string, description: string, icon: React.ComponentType<{ size: number }>, index: number }) => {
   return (
     <motion.div
       className="bg-white bg-opacity-80 p-6 rounded-lg shadow-md backdrop-blur-sm"
@@ -63,9 +63,10 @@ export const ValuesBanner = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {values.map((value, index) => (
-            <ValueCard key={index} {...value} index={index} />
-          ))}
+          {values.map((value, index) => {
+            const IconComponent = value.icon as React.ComponentType<{ size: number }>;
+            return <ValueCard key={index} {...value} icon={IconComponent} index={index} />;
+          })}
         </div>
       </div>
       <style jsx>{`
