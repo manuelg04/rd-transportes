@@ -46,10 +46,10 @@ export function Navbar() {
         <div className="flex justify-between items-center h-24">
           <Link href="/" className="flex-shrink-0 flex items-center">
             <Image
-              src="/logo.jpg"
+              src="/LOGO-RD-TRANSPORTES.jpg"
               alt="RD TRANSPORTES S.A.S Logo"
-              width={60}
-              height={60}
+              width={180}
+              height={90}
               className="h-16 w-auto transition-transform duration-300 hover:scale-105"
             />
           </Link>

@@ -15,11 +15,12 @@ const images = [
   "/RDTRANSPORTES-2.JPG",
   "/RDTRANSPORTES-3.JPG",
   "/RDTRANSPORTES-4.JPG",
+  "/RD-TRANSPORTES-5.jpg",
+  "/RD-TRANSPORTES-6.jpg",
 ];
 
 export function EnhancedCarousel() {
   return (
-    <Background className="py-16 bg-white">
       <div className="max-w-full mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-2 text-gray-700">Nuestra Flota en Acción</h2>
         <p className="text-center text-gray-600 mb-6 max-w-2xl mx-auto">Descubre cómo nuestro equipo y vehículos trabajan juntos para ofrecer un servicio de transporte excepcional</p>
@@ -46,6 +47,6 @@ export function EnhancedCarousel() {
           <CarouselNext className="right-4 bg-orange-500 text-white hover:bg-orange-600" />
         </Carousel>
       </div>
-    </Background>
+    
   );
 }
