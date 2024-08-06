@@ -7,6 +7,7 @@ import { ValuesBanner } from "./components/Banner";
 import { TrustedClients } from "./components/TrustedClients";
 import { useInView } from 'react-intersection-observer';
 import { ReactNode } from 'react';
+import ServiceNotAvailable from "./components/ServiceNotAvailable";
 
 interface AnimatedSectionProps {
   children: ReactNode;
@@ -35,7 +36,8 @@ const AnimatedSection = ({ children, className }: AnimatedSectionProps) => {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <Hero />
+      <ServiceNotAvailable />
+      {/* <Hero />
 
       <AnimatedSection className="w-full py-4 bg-gray-50">
         <ValuesBanner />
@@ -47,7 +49,7 @@ export default function Home() {
 
       <AnimatedSection className="w-full py-4 bg-white">
         <EnhancedCarousel />
-      </AnimatedSection>
+      </AnimatedSection> */}
     </main>
   );
 }
