@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Send, Truck, Clock, Shield } from "lucide-react";
+import { Locations } from "./Locations";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -123,6 +124,7 @@ export function Contact() {
           </Button>
         </motion.div>
       </div>
+      <Locations />
     </section>
   );
 }

@@ -11,14 +11,14 @@ const services = [
     description: "Transporte seguro y eficiente de carga seca en todo el territorio nacional.",
     icon: Truck,
     gradient: "from-yellow-400 to-orange-500",
-    image: "/carga-seca.jpg"
+    image: "/newcargaseca.jpg"
   },
   {
     title: "Carga Refrigerada",
     description: "Especialistas en transporte de carga refrigerada, manteniendo la cadena de frío.",
     icon: Snowflake,
     gradient: "from-orange-500 to-yellow-400",
-    image: "/carga-refrigerada.jpg"
+    image: "/newcargarefri.jpg"
   },
   {
     title: "Operaciones de ITR",
@@ -32,7 +32,7 @@ const services = [
     description: "Transporte especializado de ganado en pie, garantizando el bienestar animal.",
     icon: Dog,
     gradient: "from-orange-500 to-yellow-400",
-    image: "/transporte-ganado.jpg"
+    image: "/newcargaganado.jpg"
   }
 ];
 

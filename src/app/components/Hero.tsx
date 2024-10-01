@@ -3,6 +3,7 @@ import React, { useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -71,8 +72,27 @@ export function Hero() {
               </Button>
             </Link>
           </motion.div>
+          <motion.div
+          className="mt-8 flex items-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 3 }}
+        >
+          <Image
+            src="/basc-logo.png"
+            alt="Certificación BASC"
+            width={150}
+            height={150}
+          />
+          <p className="ml-4 text-lg max-w-xl">
+            Empresa certificada por BASC, garantizando seguridad y confianza en cada viaje.
+          </p>
+        </motion.div>
         </div>
+        
       </motion.div>
+    
+      
       
       {/* Elemento decorativo */}
       <motion.div
