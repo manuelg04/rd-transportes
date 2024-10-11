@@ -11,7 +11,7 @@ import {
 import { Background } from './Background';
 
 const images = [
-  "/RDTRANSPORTES-1.JPG",
+  "/rd1.jpg",
   "/RDTRANSPORTES-2.JPG",
   "/RDTRANSPORTES-3.JPG",
   "/RDTRANSPORTES-4.JPG",

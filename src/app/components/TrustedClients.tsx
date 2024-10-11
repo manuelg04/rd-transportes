@@ -44,12 +44,14 @@ export function TrustedClients() {
   return (
     <div className="relative py-16 overflow-hidden">
       <div className="absolute inset-0">
-        <Image
-          src="/RDTRANSPORTES-TEAM.jpg"
-          alt="Equipo RD Transportes"
-          fill
-          quality={100}
-        />
+      <Image
+        src="/genterd.jpg"
+        alt="Equipo RD Transportes"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        priority
+      />
         <div className="absolute inset-0 bg-black opacity-60"></div>
       </div>
       <div className="container mx-auto px-4 relative z-10">
