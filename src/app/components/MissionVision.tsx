@@ -76,7 +76,7 @@ export function MissionVision() {
                   layout="fill"
                   objectFit="cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-yellow-400 opacity-75"></div>
+                {/* <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-yellow-400 opacity-75"></div> */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <motion.div
                     initial={{ scale: 0 }}

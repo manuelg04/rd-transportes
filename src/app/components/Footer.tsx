@@ -45,6 +45,11 @@ export function Footer() {
                   </li>
                   <li>
                     <Link href="/services" className="text-base text-gray-300 hover:text-white">
+                      Carbón
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services" className="text-base text-gray-300 hover:text-white">
                       Carga Refrigerada
                     </Link>
                   </li>

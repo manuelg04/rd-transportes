@@ -61,7 +61,7 @@ const services: Service[] = [
       "Servicio de carga de carbón eficiente y respetuoso con el medio ambiente.",
     icon: Fuel,
     gradient: "from-gray-600 to-gray-800",
-    images: ["/carga-carbon3.jpg", "/carga-carbon.jpg", "/carga-carbon2.jpg"],
+    images: ["/propia_carbon.jpg", "/carga-carbon.jpg", "/carga-carbon2.jpg"],
   },
 ];
 

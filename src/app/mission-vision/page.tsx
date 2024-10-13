@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MissionVision } from '../components/MissionVision';
+import Image from 'next/image';
 
 const pageVariants = {
   initial: {
@@ -42,9 +43,12 @@ export default function MissionVisionPage() {
           transition={{ delay: 0.2, duration: 0.8 }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 opacity-75 rounded-lg"></div>
-          <img 
-            src="/RDTRANSPORTES-MISSION.JPG" 
-            alt="Misión y Visión" 
+          <Image
+  src="/genterd2.jpg" 
+  alt="Misión y Visión" 
+  width={1920}  // Ajusta según el tamaño real de tu imagen
+  height={1080}  // Ajusta según el tamaño real de tu imagen
+
             className="relative z-10 w-full h-[600px] object-cover rounded-lg shadow-2xl"
           />
           <motion.div 

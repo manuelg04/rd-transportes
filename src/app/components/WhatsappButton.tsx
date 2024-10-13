@@ -3,7 +3,7 @@ import React from 'react';
 import { Phone } from 'lucide-react';
 
 export function WhatsAppFloatButton() {
-  const phoneNumber = '+573123456789'; // Reemplaza con tu número de WhatsApp
+  const phoneNumber = '+573162913704'; // Reemplaza con tu número de WhatsApp
   const message = 'Hola, me gustaría obtener más información sobre sus servicios.'; // Mensaje predeterminado
 
   const handleClick = () => {
