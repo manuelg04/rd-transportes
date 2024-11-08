@@ -14,7 +14,7 @@ const images = [
   "/mula2.jpg",
   "/mula3.jpg",
   "/mula4.jpg",
-  "/mula6.jpg",
+  "/mula6.png",
 ];
 
 export function EnhancedCarousel() {
